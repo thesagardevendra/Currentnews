@@ -1,0 +1,36 @@
+.Link{
+    color:inherit;
+}
+
+.Header{
+    background-color: rgb(25, 25, 143);
+    padding: 1em;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1{
+        text-align: left;
+    }
+    input{
+        width: 30em;
+        height: 2em;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+gap:2em;
+font-size: 1.1em;
+font-weight: 100;
+cursor: pointer;
+li{
+    padding: .2em;
+}
+li:hover{
+    border-radius: .3em;
+    transform: scale(1.1);
+    transition: .2s;
+    background-color:rgb(50, 50, 240);
+}
+    }
+}
